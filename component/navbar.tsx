@@ -1,15 +1,16 @@
 "use client";
 import {itemsNavbar} from "@/data"
 import {usePathname} from "next/navigation"
-
+import MotionTransition from "./transition-component";
 import Link from "next/link"
+
 
 const Navbar = () => {
     const ruta = usePathname();
 
 
   return (
-    <div className="fixed z-50 flex flex-col items-center justify-center mt-auto w-full h-max bottom-10">
+    <MotionTransition position="bottom" className="fixed z-40 flex flex-col items-center justify-center mt-auto w-full h-max bottom-10">
       <nav>
         <div className="flex items-center justify-center gap-2 px-4 py-1 rounded-full bg-white/15 backdrop-blur-sm">   
             {itemsNavbar.map((item) => (
@@ -21,7 +22,7 @@ const Navbar = () => {
             )}
         </div>
       </nav>
-    </div>
+    </MotionTransition>
   )
 }
 

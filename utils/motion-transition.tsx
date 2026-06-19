@@ -14,7 +14,9 @@ export const transitionVariantPage = {
 };
 
 
-export const fadeIn = (position: string) => {
+import type { Variants } from "framer-motion";
+
+export const fadeIn = (position: 'right' | 'bottom'): Variants => {
     return {
         visible: {
             y:0,
@@ -40,3 +42,4 @@ export const fadeIn = (position: string) => {
         }
     }
 };
+

@@ -1,19 +1,21 @@
 import { BookText, CodeSquare, HomeIcon, UserRound, Link, X, Rss, Crop, Pencil, Computer, Book, Rocket, Speech } from "lucide-react";
+import { FaLinkedinIn, FaGithub , FaRss } from "react-icons/fa"
+
 
 export const socialNetworks = [
     {
         id: 1,
-        logo: <Link size={30} strokeWidth={1} />,
+        logo: <FaLinkedinIn size={30} strokeWidth={1} />,
         src: "#!",
     },
     {
         id: 2,
-        logo: <X size={30} strokeWidth={1} />,
+        logo: <FaGithub size={30} strokeWidth={1} />,
         src: "#!",
     },
     {
         id: 3,
-        logo: <Rss size={30} strokeWidth={1} />,
+        logo: <FaRss size={30} strokeWidth={1} />,
         src: "#!",
     },
 ];

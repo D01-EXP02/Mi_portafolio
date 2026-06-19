@@ -1,9 +1,9 @@
 @import "tailwindcss";
 
 @theme {
-  --color-secondary: #D16D09;
+  --color-secondary: #EBDC53;
   --color-darkbg: #1a1a1a;
-  --background-image-gradient-cover: linear-gradient(135deg, #c94b4b, #4b134f);
+  --background-image-gradient-cover: linear-gradient(130deg, rgb(0, 0, 0), rgb(255, 215, 0));
 }
 
 html,body {
