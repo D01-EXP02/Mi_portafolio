@@ -2,13 +2,13 @@
 
 @theme {
   --color-secondary: #EBDC53;
-  --color-darkbg: #1a1a1a;
+  --color-darkbg: #EBDC53;
   --background-image-gradient-cover: linear-gradient(130deg, rgb(0, 0, 0), rgb(255, 215, 0));
 }
 
 html,body {
   color: #ffff;
-  background: #1a1a1a;
+  background: #EBDC53;
 }
 
 main {

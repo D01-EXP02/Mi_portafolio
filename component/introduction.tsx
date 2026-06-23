@@ -21,13 +21,13 @@ const Introduction = () => {
                     </h1>
                     <p className="mx-auto mb-2 text-xl md:mx-0 md:mb-0">
                         Bienvenido a mi portafolio</p>
-                    <div className="flex item-center justify-center gap-3 md:justify-start md:gap-10">
+                    <div className="flex item-center justify-center gap-3 mt-6 md:justify-start md:gap-10">
                         <Link href="/projects" 
                         className= "px-3 py-2 transition-all border-2 cursor-pointer text-md w-fit rounded-xl hover:shadow-xl hover:shadow-white/50">
                              Ver Proyectos
                         </Link> 
 
-                        <Link href="/projects" 
+                        <Link href="/contact" 
                         className= "px-3 py-2 transition-all border-2 cursor-pointer text-md w-fit rounded-xl hover:shadow-xl hover:shadow-white/50">
                              Contacta Conmigo
                         </Link> 
