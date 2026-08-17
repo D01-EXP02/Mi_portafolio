@@ -16,6 +16,11 @@ main {
   height: 100dvh;
 }
 
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, 
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+background-color: #EBDC53
+};
+
  @layer utilities {
   .text-balanced {
     text-wrap: balance;
